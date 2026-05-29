@@ -5,7 +5,7 @@
 let middleSum = 1
 let sum = 0
 while (middleSum <= 20) {
-    sum += 1;
+    sum += middleSum;
     middleSum++
     } 
 console.log(sum)
