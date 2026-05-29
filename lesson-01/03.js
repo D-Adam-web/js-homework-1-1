@@ -5,4 +5,12 @@
 */
 
 // your code
-let sum
+let sum = 0
+let middleSum = 1
+
+while (middleSum <=20) {
+  if (middleSum % 2 === 1) {
+    sum += middleSum;
+  }
+  middleSum++
+}
