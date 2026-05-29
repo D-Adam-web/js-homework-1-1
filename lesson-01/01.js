@@ -6,5 +6,5 @@ let middleSum = 1
 let sum = 0
 while (middleSum <= 20) {
     sum += middleSum;
-    middleSum++
+    middleSum++;
     }
