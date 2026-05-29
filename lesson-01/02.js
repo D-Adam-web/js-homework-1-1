@@ -6,4 +6,10 @@
 */
 
 // your code
-let factorial
+let factorial = 1
+let middleFactorial = 1
+
+while (middleFactorial <=10) {
+  factorial *= middleFactorial;
+  middleFactorial++
+}
